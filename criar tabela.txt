@@ -1,0 +1,10 @@
+CREATE TABLE pesquisa
+(
+id serial NOT NULL,
+computadorcasa character varying,
+rendamensal character varying,
+transporte character varying,
+avaliacao character varying,
+descobriufaculdade character varying,
+CONSTRAINT pesquisa_pk PRIMARY KEY (id)
+);

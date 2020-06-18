@@ -10,7 +10,7 @@ public class Principal {
 
 
 		try {
-		String csvFilePath = "C:\\Users\\SAVIOBORGESFORTE\\Desktop\\dadosads.csv";
+		String csvFilePath = "ProjetoIntegrador2\dadosads.csv";
 		
 		File csvFile = new File(csvFilePath);
 		

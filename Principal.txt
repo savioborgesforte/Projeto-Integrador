@@ -3,14 +3,12 @@ package ProjetoIntegrador;
 import java.io.File;
 import java.util.Scanner;
 
-public class Principal {
-
-	public static void main(String[] args) {
+public static void main(String[] args) {
 		
 
 
 		try {
-		String csvFilePath = "ProjetoIntegrador2\dadosads.csv";
+		String csvFilePath = "C:\\Users\\SAVIOBORGESFORTE\\eclipse-workspace\\ProjetoIntegrador2\\dadosads.csv";
 		
 		File csvFile = new File(csvFilePath);
 		
@@ -24,7 +22,7 @@ public class Principal {
 			
 			String linha = stream.nextLine();
 			
-			String [] colunas = linha.split(";");
+			String [] colunas = linha.split(" ; ");
 			
 			
 			//Manipulação dos dados do cliente
@@ -59,7 +57,7 @@ public class Principal {
 	//	pesquisa.setRendamensal("MAIS DE 4.000");
 	//	pesquisa.setTransporte("MOTO");
 	//	pesquisa.setAvaliacao(9);
-	//	pesquisa.setDescobriufaculdade("TELEVISAO");
+	//  pesquisa.setDescobriufaculdade("TELEVISAO");
 
 		
 		//Inseri novo cliente
